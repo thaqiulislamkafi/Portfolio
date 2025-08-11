@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+}
+
+.gray-font {
+  @apply text-gray-700 dark:text-gray-200
+}
