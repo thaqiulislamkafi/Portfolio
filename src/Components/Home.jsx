@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './Navbar';
 import About from './Body/About';
 import Projects from './Body/Projects';
@@ -11,19 +11,21 @@ import MobileNavbar from './MobileNavbar';
 
 const Home = () => {
 
+    const [showSideBar, setShowSideBar] = useState(true);
+
     return (
         <div className='bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900'>
             <div className='py-5'>
-                <Navbar />
-                <SideNavbar/>
-                <MobileNavbar/>
-                <About/>
-                <AboutMe/>
-                <Projects/>
-                <Skills/>
-                <Education/>
-                <Contact/>
-                
+                <Navbar showSideBar={showSideBar} setShowSideBar = {setShowSideBar} />
+                <SideNavbar showSideBar={showSideBar} setShowSideBar = {setShowSideBar} />
+                <MobileNavbar />
+                <About />
+                <AboutMe />
+                <Projects />
+                <Skills />
+                <Education />
+                <Contact />
+
             </div>
         </div>
     );

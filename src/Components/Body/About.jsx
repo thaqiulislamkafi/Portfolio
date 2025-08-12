@@ -7,11 +7,12 @@ const About = () => {
 		<div className="bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 my-30 rounded-xl shadow-lg py-20 relative w-[80.94vw] mx-auto text-white">
 			{/* Profile Icon */}
 			<div className="p-3 absolute -top-18 left-1/2 transform -translate-x-1/2 text-center rounded-full bg-gray-800 border border-gray-700 shadow-lg">
-				<FaRegUserCircle size={110} className="text-gray-300" />
+				<img className="rounded-full w-30" src="https://i.postimg.cc/RZY9JDYj/git-pro-pic.png" alt="" />
+				
 			</div>
 
 			{/* Content */}
-			<div className="text-center space-y-6 inter-font px-6">
+			<div className="text-center space-y-6 inter-font px-6 mt-4">
 				<p className="text-4xl font-extrabold inter-font">
 					Thaqi Ul Islam Kafi
 				</p>

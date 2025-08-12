@@ -23,7 +23,7 @@ const Projects = () => {
 			server_side : 'https://github.com/thaqiulislamkafi/Eventure'
 		},
 		{
-			image: "https://i.postimg.cc/pLjn03r2/eventure-cover.png",
+			image: "https://i.postimg.cc/vHzZTXbs/recipehut.png",
 			title: "Recipe Hut",
 			description:
 				"Recipe Hut is a recipe-sharing platform where users can browse, upload, and save recipes with ease.",

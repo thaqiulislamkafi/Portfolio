@@ -1,21 +1,33 @@
 import React from "react";
-import { FaUser, FaLaptopCode, FaGraduationCap, FaProjectDiagram, FaEnvelope } from "react-icons/fa";
+import {
+  FaUser,
+  FaLaptopCode,
+  FaGraduationCap,
+  FaProjectDiagram,
+  FaEnvelope,
+} from "react-icons/fa";
 
 const navItems = [
   { id: "about", label: "About", icon: <FaUser /> },
+  { id: "projects", label: "Projects", icon: <FaProjectDiagram /> },
   { id: "skills", label: "Skills", icon: <FaLaptopCode /> },
   { id: "education", label: "Education", icon: <FaGraduationCap /> },
-  { id: "projects", label: "Projects", icon: <FaProjectDiagram /> },
   { id: "contact", label: "Contact", icon: <FaEnvelope /> },
 ];
 
-const SideNavbar = () => {
+const SideNavbar = ({ showSideBar }) => {
   const handleScroll = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
-    <div className="fixed hidden md:flex top-1/2 left-3 -translate-y-1/2  flex-col from-gray-900 via-gray-800 to-gray-900 rounded-4xl shadow-lg z-50">
+    <div
+      className={`fixed hidden md:flex top-1/2 left-3 -translate-y-1/2 flex-col from-gray-900 via-gray-800 to-gray-900 rounded-4xl shadow-lg z-50 transition-all duration-500 ease-in-out ${
+        showSideBar
+          ? "opacity-100 translate-x-0 pointer-events-auto"
+          : "opacity-0 -translate-x-10 pointer-events-none"
+      }`}
+    >
       {navItems.map((item) => (
         <button
           key={item.id}

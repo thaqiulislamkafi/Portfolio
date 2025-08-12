@@ -3,9 +3,9 @@ import { FaUser, FaLaptopCode, FaGraduationCap, FaProjectDiagram, FaEnvelope } f
 
 const navItems = [
   { id: "about", label: "About", icon: <FaUser /> },
+  { id: "projects", label: "Projects", icon: <FaProjectDiagram /> },
   { id: "skills", label: "Skills", icon: <FaLaptopCode /> },
   { id: "education", label: "Education", icon: <FaGraduationCap /> },
-  { id: "projects", label: "Projects", icon: <FaProjectDiagram /> },
   { id: "contact", label: "Contact", icon: <FaEnvelope /> },
 ];
 
