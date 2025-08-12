@@ -6,9 +6,9 @@ const AboutMe = () => {
 			id="about"
 			className="py-20 w-[80.94vw] mx-auto  text-white rounded-xl my-20 inter-font"
 		>
-			<div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row lg:items-center gap-12 md:px-12">
+			<div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row  lg:items-center gap-12 md:px-12">
 				{/* Left Side - Timeline */}
-				<div className="relative pl-8 border-l-4 border-indigo-100">
+				<div className="relative pl-8 border-l-4 border-indigo-100 lg:min-w-lg">
 					{/* Timeline Item */}
 					<div className="mb-8 relative group ">
 						<span className="absolute -left-[46px] top-0.5 w-6 h-6 bg-indigo-100 rounded-full border-4 border-gray-900 transition-colors duration-300 group-hover:bg-sky-500"></span>
@@ -39,7 +39,7 @@ const AboutMe = () => {
 				</div>
 
 				{/* Right Side */}
-				<div>
+				<div className="">
 					<h2 className="text-3xl font-bold mb-6">About Me</h2>
 					<p className="text-gray-300 mb-10">
 						I’m a passionate full-stack developer who loves creating scalable

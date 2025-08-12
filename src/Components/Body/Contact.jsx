@@ -13,22 +13,22 @@ const Contact = () => {
           {/* Left Side */}
           <div className="relative pl-7 border-l-4 h-fit border-indigo-100 py-5">
             {/* Point markers */}
-            <div className="absolute -left-3.5 top-5 w-6 h-6 bg-indigo-100 rounded-full border-4 border-gray-900"></div>
-            <div className="absolute -left-3.5 top-18 md:top-24 w-6 h-6 bg-indigo-100 rounded-full border-4 border-gray-900"></div>
-            <div className="absolute -left-3.5 top-31.5 md:top-43 w-6 h-6 bg-indigo-100 rounded-full border-4 border-gray-900"></div>
+            <div className="absolute -left-3 md:-left-3.5 top-5 md:w-6 w-5 h-5 md:h-6 bg-indigo-100 rounded-full border-4 border-gray-900"></div>
+            <div className="absolute -left-3 md:-left-3.5 top-18 md:top-24 md:w-6 w-5 h-5 md:h-6 bg-indigo-100 rounded-full border-4 border-gray-900"></div>
+            <div className="absolute -left-3 md:-left-3.5 top-29.5 md:top-43 md:w-6 w-5 h-5 md:h-6 bg-indigo-100 rounded-full border-4 border-gray-900"></div>
 
             {/* Info Items */}
             <div className="mb-6 md:mb-12 flex items-center gap-4">
-              <FaEnvelope className="text-indigo-400 text-2xl" />
-              <p className="text-lg">thaqiulislamkafi@email.com</p>
+              <FaEnvelope className="text-indigo-400 text-lg md:text-2xl" />
+              <p className="md:text-lg line-clamp-1">thaqiulislamkafi@gmail.com</p>
             </div>
             <div className="mb-6 md:mb-12 flex items-center gap-4">
-              <FaWhatsapp className="text-green-400 text-2xl" />
-              <p className="text-lg">+880 1813694582</p>
+              <FaWhatsapp className="text-green-400 text-lg md:text-2xl" />
+              <p className="md:text-lg">+880 1813694582</p>
             </div>
             <div className="flex items-center gap-4">
-              <FaMapMarkerAlt className="text-red-400 text-2xl" />
-              <p className="text-lg">Chittagong, Bangladesh</p>
+              <FaMapMarkerAlt className="text-red-400 text-lg md:text-2xl" />
+              <p className="md:text-lg">Chittagong, Bangladesh</p>
             </div>
           </div>
 

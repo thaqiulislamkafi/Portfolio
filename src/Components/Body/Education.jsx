@@ -4,12 +4,12 @@ import { FaUniversity, FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
 const Education = () => {
   return (
     <div id="education" className="w-[80.94vw] mx-auto my-20 rounded-xl  text-white md:p-10 inter-font">
-      <div className="flex flex-col md:flex-row gap-10">
+      <div className="flex flex-col lg:flex-row gap-10">
         
         {/* Left Side */}
         <div className="flex-1">
           <h2 className="text-4xl font-bold mb-4">Education</h2>
-          <p className="text-lg leading-relaxed mb-8">
+          <p className="md:text-lg leading-relaxed mb-8">
             I’m currently pursuing my Bachelor’s degree in{" "}
             <span className="font-semibold">Computer Science & Engineering</span> at Premier University, Chittagong.
             This journey began in 2023, and I’m dedicated to mastering both

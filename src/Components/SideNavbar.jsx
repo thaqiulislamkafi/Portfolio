@@ -15,7 +15,7 @@ const SideNavbar = () => {
   };
 
   return (
-    <div className="fixed hidden lg:flex top-1/2 left-3 2  flex-col from-gray-900 via-gray-800 to-gray-900 rounded-4xl shadow-lg z-50">
+    <div className="fixed hidden md:flex top-1/2 left-3 -translate-y-1/2  flex-col from-gray-900 via-gray-800 to-gray-900 rounded-4xl shadow-lg z-50">
       {navItems.map((item) => (
         <button
           key={item.id}

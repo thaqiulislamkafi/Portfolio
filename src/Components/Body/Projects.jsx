@@ -46,7 +46,7 @@ const Projects = () => {
 					and user-friendly applications.
 				</p>
 
-				<div className="grid grid-cols-1 lg:grid-cols-3 justify-center gap-6 mt-10">
+				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-6 mt-10">
 					{projects.map((project, idx) => (
 						<div
 							key={idx}
