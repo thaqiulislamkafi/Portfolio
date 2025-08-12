@@ -7,6 +7,7 @@ import AboutMe from './Body/AboutMe';
 import Contact from './Body/Contact';
 import Education from './Body/Education';
 import SideNavbar from './SideNavbar';
+import MobileNavbar from './MobileNavbar';
 
 const Home = () => {
 
@@ -15,6 +16,7 @@ const Home = () => {
             <div className='py-5'>
                 <Navbar />
                 <SideNavbar/>
+                <MobileNavbar/>
                 <About/>
                 <AboutMe/>
                 <Projects/>
