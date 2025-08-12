@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
 
         <div>
-            <div className='flex items-center justify-between w-[85.94vw] mx-auto'>
+            <div className='flex items-center justify-between w-[80.94vw] mx-auto'>
 
                 <div>
                 <div>

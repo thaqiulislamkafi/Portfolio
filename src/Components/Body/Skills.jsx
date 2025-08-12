@@ -28,7 +28,7 @@ const skills = [
 
 const Skills = () => {
 	return (
-		<section id="skills" className="py-20 w-[85.94vw] mx-auto">
+		<section id="skills" className="py-20 w-[80.94vw] mx-auto">
 			<div className="max-w-7xl mx-auto sm:px-6 lg:px-18 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 py-30 rounded-xl my-20 ">
 				
 				{/* Heading */}
@@ -40,11 +40,11 @@ const Skills = () => {
 				</div>
 
 				{/* Skills Grid */}
-				<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6 text-center">
+				<div className="grid grid-cols-2 px-10 md:grid-cols-4 lg:grid-cols-5 gap-6 text-center">
 					{skills.map((skill, index) => (
 						<div
 							key={index}
-							className="bg-gray-800 rounded-xl p-6 shadow-md hover:shadow-lg hover:shadow-gray-700 hover:scale-105 transition border duration-500 border-gray-700"
+							className="bg-gray-800 rounded-xl p-3 md:p-6 shadow-md hover:shadow-lg hover:shadow-gray-700 hover:scale-105 transition border duration-500 border-gray-700"
 						>
 							{skill.icon}
 							<h3 className="text-sm font-semibold text-gray-200">

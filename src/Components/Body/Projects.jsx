@@ -10,6 +10,8 @@ const Projects = () => {
 			description:
 				"Nestora is a real estate web application designed to connect property buyers, sellers, and agents in a secure and user-friendly platform.",
 			stack: ["React", "Express.js", "MongoDB", "Stripe"],
+			live_link : 'https://thaqiulislamkafi-assignment-12.netlify.app/',
+			server_side : 'https://github.com/thaqiulislamkafi/Nestora'
 		},
 		{
 			image: "https://i.postimg.cc/pLjn03r2/eventure-cover.png",
@@ -17,6 +19,8 @@ const Projects = () => {
 			description:
 				"Eventure is an event management web app for booking, managing, and tracking events seamlessly.",
 			stack: ["React", "Express.js", "MongoDB", "Firebase"],
+			live_link : 'https://thaqiulislamkafi-assignment-11.netlify.app/',
+			server_side : 'https://github.com/thaqiulislamkafi/Eventure'
 		},
 		{
 			image: "https://i.postimg.cc/pLjn03r2/eventure-cover.png",
@@ -24,12 +28,14 @@ const Projects = () => {
 			description:
 				"Recipe Hut is a recipe-sharing platform where users can browse, upload, and save recipes with ease.",
 			stack: ["React", "Express.js", "MongoDB", "Firebase"],
+			live_link : 'https://thaqiulislamkafi-assignment-10.netlify.app/',
+			server_side : 'https://github.com/thaqiulislamkafi/RecipiHut-client-side'
 		},
 	];
 
 	return (
-		<div className="bg-gradient-to-b from-gray-900 via-gray-800 to-transparent py-20 inter-font">
-			<div className="rounded-xl space-y-7 text-center w-[85.94vw] mx-auto">
+		<div id="projects" className="bg-gradient-to-b from-gray-900 via-gray-800 to-transparent py-20 inter-font">
+			<div className="rounded-xl space-y-7 text-center w-[80.94vw] mx-auto">
 				<p className=" font-extrabold text-4xl text-white">
 					Featured Projects
 				</p>
@@ -40,7 +46,7 @@ const Projects = () => {
 					and user-friendly applications.
 				</p>
 
-				<div className="grid grid-cols-3 justify-center gap-6 mt-10">
+				<div className="grid grid-cols-1 lg:grid-cols-3 justify-center gap-6 mt-10">
 					{projects.map((project, idx) => (
 						<div
 							key={idx}
@@ -72,14 +78,16 @@ const Projects = () => {
 
 							<div className="flex items-center gap-4 mt-4">
 								<a
-									href="#"
+									href={project.live_link}
+									target="_blank"
 									className="btn btn-sm btn-outline border-sky-500 text-sky-400 hover:bg-sky-500 hover:text-white transition"
 								>
 									<MdOutlineArrowOutward /> Live
 								</a>
 								<a
-									href="#"
-									className="btn btn-sm btn-outline border-gray-400 text-gray-300 hover:bg-gray-400 hover:text-black transition"
+									href={project.server_side}
+									target="_blank"
+									className="btn btn-sm btn-outline border-gray-400 text-gray-300 hover:bg-gray-400 hover:text-black transition" 
 								>
 									<FaGithub /> Code
 								</a>

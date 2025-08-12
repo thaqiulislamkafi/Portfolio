@@ -4,13 +4,14 @@ const AboutMe = () => {
 	return (
 		<section
 			id="about"
-			className="py-20 w-[85.94vw] mx-auto  text-white rounded-xl my-20 inter-font"
+			className="py-20 w-[80.94vw] mx-auto  text-white rounded-xl my-20 inter-font"
 		>
-			<div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 px-6 md:px-12">
+			<div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row lg:items-center gap-12 md:px-12">
 				{/* Left Side - Timeline */}
 				<div className="relative pl-8 border-l-4 border-indigo-100">
-					<div className="mb-8 relative">
-						<span className="absolute -left-[46px] top-0.5 w-6 h-6 bg-indigo-100 rounded-full border-4 border-gray-900"></span>
+					{/* Timeline Item */}
+					<div className="mb-8 relative group ">
+						<span className="absolute -left-[46px] top-0.5 w-6 h-6 bg-indigo-100 rounded-full border-4 border-gray-900 transition-colors duration-300 group-hover:bg-sky-500"></span>
 						<h3 className="text-xl font-bold mb-2">Scalability</h3>
 						<p className="text-gray-300">
 							I design backend architectures and frontend structures that scale
@@ -18,8 +19,8 @@ const AboutMe = () => {
 						</p>
 					</div>
 
-					<div className="mb-8 relative">
-						<span className="absolute -left-[46px] top-0.5 w-6 h-6 bg-indigo-100 rounded-full border-4 border-gray-900"></span>
+					<div className="mb-8 relative group ">
+						<span className="absolute -left-[46px] top-0.5 w-6 h-6 bg-indigo-100 rounded-full border-4 border-gray-900 transition-colors duration-300 group-hover:bg-sky-500 "></span>
 						<h3 className="text-xl font-bold mb-2">Amazing UI</h3>
 						<p className="text-gray-300">
 							My projects prioritize beautiful, modern, and responsive user
@@ -27,8 +28,8 @@ const AboutMe = () => {
 						</p>
 					</div>
 
-					<div className="relative">
-						<span className="absolute -left-[46px] top-0.5 w-6 h-6 bg-indigo-100 rounded-full border-4 border-gray-900"></span>
+					<div className="relative group ">
+						<span className="absolute -left-[46px] top-0.5 w-6 h-6 bg-indigo-100 rounded-full border-4 border-gray-900 transition-colors duration-300 group-hover:bg-sky-500"></span>
 						<h3 className="text-xl font-bold mb-2">User Friendly</h3>
 						<p className="text-gray-300">
 							Every feature is developed with the end user in mind, ensuring
@@ -47,19 +48,19 @@ const AboutMe = () => {
 						clean code, and long-term maintainability in mind.
 					</p>
 
-					<div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+					<div className="grid grid-cols-3 gap-6">
 						<div className="flex flex-col items-center text-center">
-							<FaServer className="text-indigo-100 text-4xl mb-3" />
+							<FaServer className="text-indigo-100 md:text-4xl mb-3" />
 							<span className="font-semibold">Scalability</span>
 						</div>
 
 						<div className="flex flex-col items-center text-center">
-							<FaPaintBrush className="text-indigo-100 text-4xl mb-3" />
+							<FaPaintBrush className="text-indigo-100 md:text-4xl mb-3" />
 							<span className="font-semibold">Amazing UI</span>
 						</div>
 
 						<div className="flex flex-col items-center text-center">
-							<FaSmile className="text-indigo-100 text-4xl mb-3" />
+							<FaSmile className="text-indigo-100 md:text-4xl mb-3" />
 							<span className="font-semibold">User Friendly</span>
 						</div>
 					</div>

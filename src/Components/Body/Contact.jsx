@@ -2,7 +2,7 @@ import { FaEnvelope, FaWhatsapp, FaMapMarkerAlt } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 w-[85.94vw] mx-auto inter-font">
+    <section id="contact" className="py-20 w-[80.94vw] mx-auto inter-font">
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-18 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 py-16 px-8 rounded-xl my-20 text-white">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">Contact Me</h2>
@@ -14,15 +14,15 @@ const Contact = () => {
           <div className="relative pl-7 border-l-4 h-fit border-indigo-100 py-5">
             {/* Point markers */}
             <div className="absolute -left-3.5 top-5 w-6 h-6 bg-indigo-100 rounded-full border-4 border-gray-900"></div>
-            <div className="absolute -left-3.5 top-24 w-6 h-6 bg-indigo-100 rounded-full border-4 border-gray-900"></div>
-            <div className="absolute -left-3.5 top-43 w-6 h-6 bg-indigo-100 rounded-full border-4 border-gray-900"></div>
+            <div className="absolute -left-3.5 top-18 md:top-24 w-6 h-6 bg-indigo-100 rounded-full border-4 border-gray-900"></div>
+            <div className="absolute -left-3.5 top-31.5 md:top-43 w-6 h-6 bg-indigo-100 rounded-full border-4 border-gray-900"></div>
 
             {/* Info Items */}
-            <div className="mb-12 flex items-center gap-4">
+            <div className="mb-6 md:mb-12 flex items-center gap-4">
               <FaEnvelope className="text-indigo-400 text-2xl" />
               <p className="text-lg">thaqiulislamkafi@email.com</p>
             </div>
-            <div className="mb-12 flex items-center gap-4">
+            <div className="mb-6 md:mb-12 flex items-center gap-4">
               <FaWhatsapp className="text-green-400 text-2xl" />
               <p className="text-lg">+880 1813694582</p>
             </div>

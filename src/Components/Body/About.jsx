@@ -4,7 +4,7 @@ import { MdDownload } from "react-icons/md";
 
 const About = () => {
 	return (
-		<div className="bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 my-30 rounded-xl shadow-lg py-20 relative w-[85.94vw] mx-auto text-white">
+		<div className="bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 my-30 rounded-xl shadow-lg py-20 relative w-[80.94vw] mx-auto text-white">
 			{/* Profile Icon */}
 			<div className="p-3 absolute -top-18 left-1/2 transform -translate-x-1/2 text-center rounded-full bg-gray-800 border border-gray-700 shadow-lg">
 				<FaRegUserCircle size={110} className="text-gray-300" />
