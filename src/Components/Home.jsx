@@ -8,6 +8,7 @@ import Contact from './Body/Contact';
 import Education from './Body/Education';
 import SideNavbar from './SideNavbar';
 import MobileNavbar from './MobileNavbar';
+import Footer from './Footer';
 
 const Home = () => {
 
@@ -25,6 +26,7 @@ const Home = () => {
                 <Skills />
                 <Education />
                 <Contact />
+                <Footer/>
 
             </div>
         </div>

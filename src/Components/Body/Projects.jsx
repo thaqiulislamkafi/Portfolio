@@ -8,7 +8,7 @@ const Projects = () => {
 			image: "https://i.postimg.cc/d157kYH9/Nestora-cover.png",
 			title: "Nestora",
 			description:
-				"Nestora is a real estate web application designed to connect property buyers, sellers, and agents in a secure and user-friendly platform.",
+				"Nestora is a real estate web application designed to connect property buyers, sellers, and agents in a secure platform.",
 			stack: ["React", "Express.js", "MongoDB", "Stripe"],
 			live_link : 'https://thaqiulislamkafi-assignment-12.netlify.app/',
 			server_side : 'https://github.com/thaqiulislamkafi/Nestora'
@@ -40,7 +40,7 @@ const Projects = () => {
 					Featured Projects
 				</p>
 
-				<p className="text-gray-300 font-medium max-w-2xl mx-auto">
+				<p className="text-gray-300 font-medium max-w-3xl mx-auto">
 					A collection of some of my best work. Each project reflects my skills in
 					full-stack development and my passion for creating engaging, functional,
 					and user-friendly applications.

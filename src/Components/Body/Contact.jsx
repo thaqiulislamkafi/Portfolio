@@ -11,11 +11,13 @@ const Contact = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Left Side */}
-          <div className="relative pl-4 md:pl-7 border-l-4 h-fit border-indigo-100 py-5">
+          <div className="relative md:pl-7 md:border-l-4 md:h-fit md:border-indigo-100 py-5">
             {/* Point markers */}
-            <div className="absolute -left-3 md:-left-3.5 top-5 md:w-6 w-5 h-5 md:h-6 bg-indigo-100 rounded-full border-4 border-gray-900"></div>
-            <div className="absolute -left-3 md:-left-3.5 top-18 md:top-24 md:w-6 w-5 h-5 md:h-6 bg-indigo-100 rounded-full border-4 border-gray-900"></div>
-            <div className="absolute -left-3 md:-left-3.5 top-29.5 md:top-43 md:w-6 w-5 h-5 md:h-6 bg-indigo-100 rounded-full border-4 border-gray-900"></div>
+            <div className="absolute md:-left-3.5  md:w-6  md:h-6 md:bg-indigo-100 md:rounded-full md:border-4 border-gray-900"></div>
+
+            <div className="absolute md:-left-3.5 md:top-24 md:w-6  md:h-6 bg-indigo-100 md:rounded-full md:border-4 border-gray-900"></div>
+
+            <div className="absolute md:-left-3.5 md:top-43 md:w-6 md:h-6 md:bg-indigo-100 rounded-full md:border-4 border-gray-900"></div>
 
             {/* Info Items */}
             <div className="mb-6 md:mb-12 flex items-center gap-4">

@@ -17,7 +17,7 @@ const Education = () => {
           </p>
 
           {/* Info Bar */}
-          <div className="grid grid-cols-3 gap-0 bg-opacity-10 rounded-lg md:p-6 ">
+          <div className="md:grid grid-cols-3 gap-0 bg-opacity-10 rounded-lg md:py-3 hidden ">
             <div className="flex flex-col items-center text-center ">
               <FaUniversity className="text-xl md:text-3xl mb-2" />
               <h3 className="font-semibold md:text-lg">Department</h3>
