@@ -35,7 +35,7 @@ const Projects = () => {
 
 	return (
 		<div id="projects" className="bg-gradient-to-b from-gray-900 via-gray-800 to-transparent py-20 inter-font">
-			<div className="rounded-xl space-y-7 text-center w-[80.94vw] mx-auto">
+			<div className="rounded-xl space-y-7 text-center w-[85.94vw] md:w-[80.94vw] mx-auto">
 				<p className=" font-extrabold text-4xl text-white">
 					Featured Projects
 				</p>

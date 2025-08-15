@@ -28,7 +28,7 @@ const skills = [
 
 const Skills = () => {
 	return (
-		<section id="skills" className="py-20 w-[80.94vw] mx-auto">
+		<section id="skills" className="py-20 w-[85.94vw] md:w-[80.94vw] mx-auto">
 			<div className="max-w-7xl mx-auto sm:px-6 lg:px-18 bg-gradient-to-b from-gray-900 via-gray-800 to-gray-900 py-30 rounded-xl my-20 ">
 				
 				{/* Heading */}

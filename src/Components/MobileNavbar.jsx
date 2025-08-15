@@ -15,15 +15,15 @@ const MobileNavbar = () => {
   };
 
   return (
-    <div className="fixed bottom-0 left-0 w-full md:hidden bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 shadow-lg z-50">
+    <div className="fixed bottom-0 left-0 w-full md:hidden bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 shadow-lg z-50 inter-font">
       <div className="flex justify-around items-center py-3">
         {navItems.map((item) => (
           <button
             key={item.id}
             onClick={() => handleScroll(item.id)}
-            className="flex flex-col items-center text-xs text-white hover:text-sky-500 transition-colors duration-300"
+            className="flex flex-col gap-1 items-center text-xs text-white hover:text-sky-500 transition-colors duration-300"
           >
-            <span className="text-lg">{item.icon}</span>
+            <span className="text-xl">{item.icon}</span>
             <span>{item.label}</span>
           </button>
         ))}

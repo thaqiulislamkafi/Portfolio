@@ -3,7 +3,7 @@ import { FaUniversity, FaCalendarAlt, FaMapMarkerAlt } from "react-icons/fa";
 
 const Education = () => {
   return (
-    <div id="education" className="w-[80.94vw] mx-auto my-20 rounded-xl  text-white md:p-10 inter-font">
+    <div id="education" className="w-[85.94vw] md:w-[80.94vw] mx-auto my-20 rounded-xl  text-white md:p-10 inter-font">
       <div className="flex flex-col lg:flex-row gap-10">
         
         {/* Left Side */}

@@ -2,7 +2,7 @@ import { FaEnvelope, FaWhatsapp, FaMapMarkerAlt } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 w-[80.94vw] mx-auto inter-font">
+    <section id="contact" className="py-20 w-[85.94vw] md:w-[80.94vw] mx-auto inter-font">
       <div className="max-w-7xl mx-auto sm:px-6 lg:px-18 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 py-16 px-8 rounded-xl my-20 text-white">
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">Contact Me</h2>
@@ -11,7 +11,7 @@ const Contact = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Left Side */}
-          <div className="relative pl-7 border-l-4 h-fit border-indigo-100 py-5">
+          <div className="relative pl-4 md:pl-7 border-l-4 h-fit border-indigo-100 py-5">
             {/* Point markers */}
             <div className="absolute -left-3 md:-left-3.5 top-5 md:w-6 w-5 h-5 md:h-6 bg-indigo-100 rounded-full border-4 border-gray-900"></div>
             <div className="absolute -left-3 md:-left-3.5 top-18 md:top-24 md:w-6 w-5 h-5 md:h-6 bg-indigo-100 rounded-full border-4 border-gray-900"></div>

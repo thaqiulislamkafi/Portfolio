@@ -5,7 +5,7 @@ const AboutMe = () => {
 	return (
 		<section
 			id="about"
-			className="py-20 w-[80.94vw] mx-auto text-white rounded-xl my-20 inter-font"
+			className="py-20 w-[85.94vw] md:w-[80.94vw] mx-auto text-white rounded-xl my-20 inter-font"
 		>
 			<div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row lg:items-center gap-12 md:px-12">
 				{/* Left Side - Timeline */}
@@ -48,18 +48,18 @@ const AboutMe = () => {
 
 					<div className="grid grid-cols-3 gap-6">
 						<div className="flex flex-col items-center text-center">
-							<FaLightbulb className="text-indigo-100 md:text-4xl mb-3" />
-							<span className="font-semibold">Problem Solving Mindset</span>
+							<FaLightbulb className="text-indigo-100 text-2xl md:text-4xl mb-3" />
+							<span className="text-sm md:text-base font-semibold">Problem Solving Mindset</span>
 						</div>
 
 						<div className="flex flex-col items-center text-center">
-							<FaLaptopCode className="text-indigo-100 md:text-4xl mb-3" />
-							<span className="font-semibold">App Development</span>
+							<FaLaptopCode className="text-indigo-100  text-2xl md:text-4xl mb-3" />
+							<span className="text-sm md:text-base font-semibold">App Development</span>
 						</div>
 
 						<div className="flex flex-col items-center text-center">
-							<CiMicrochip className="text-indigo-100 md:text-4xl mb-3" />
-							<span className="font-semibold">Interested about Arduino</span>
+							<CiMicrochip className="text-indigo-100  text-2xl md:text-4xl mb-3" />
+							<span className="text-sm md:text-base  font-semibold">Interested about Arduino</span>
 						</div>
 					</div>
 				</div>
