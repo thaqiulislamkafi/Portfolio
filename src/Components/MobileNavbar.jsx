@@ -1,6 +1,9 @@
 import React from "react";
 import { FaUser, FaLaptopCode, FaGraduationCap, FaProjectDiagram, FaEnvelope } from "react-icons/fa";
 
+
+// Responsiveness for mobile 
+
 const navItems = [
   { id: "about", label: "About", icon: <FaUser /> },
   { id: "projects", label: "Projects", icon: <FaProjectDiagram /> },
